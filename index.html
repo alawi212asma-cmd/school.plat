@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>المنصة المدرسية</title>
+<style>
+  :root{color-scheme:light dark}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:'Segoe UI',Tahoma,Arial,sans-serif;
+    min-height:100vh;display:flex;align-items:center;justify-content:center;
+    background:linear-gradient(135deg,#0f766e,#155e75);color:#fff;padding:24px}
+  .card{background:rgba(255,255,255,.08);backdrop-filter:blur(6px);
+    border:1px solid rgba(255,255,255,.18);border-radius:20px;
+    padding:40px 32px;max-width:640px;width:100%;text-align:center;
+    box-shadow:0 20px 50px rgba(0,0,0,.35)}
+  h1{margin:0 0 8px;font-size:28px}
+  p.sub{margin:0 0 28px;opacity:.85;font-size:15px}
+  .btns{display:grid;gap:16px;grid-template-columns:1fr 1fr}
+  @media(max-width:520px){.btns{grid-template-columns:1fr}}
+  a.btn{display:block;text-decoration:none;color:#fff;
+    background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);
+    border-radius:14px;padding:22px 18px;transition:.2s;font-size:17px;font-weight:600}
+  a.btn:hover{background:rgba(255,255,255,.22);transform:translateY(-2px)}
+  a.btn small{display:block;font-weight:400;opacity:.8;font-size:13px;margin-top:6px}
+  .foot{margin-top:26px;font-size:12px;opacity:.7;line-height:1.7}
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>المنصة المدرسية</h1>
+    <p class="sub">اختر النسخة التي تريد فتحها</p>
+    <div class="btns">
+      <a class="btn" href="./protected.html">
+        النسخة المحمية
+        <small>تخزين دائم وحماية للبيانات</small>
+      </a>
+      <a class="btn" href="./base.html">
+        النسخة الأساسية
+        <small>النسخة القياسية</small>
+      </a>
+    </div>
+    <div class="foot">
+      تعمل هذه النافذة من خلال خادم محلي داخلي آمن على جهازك فقط.<br>
+      التخزين الدائم مُفعّل تلقائياً دون أي إعداد.
+    </div>
+  </div>
+</body>
+</html>
